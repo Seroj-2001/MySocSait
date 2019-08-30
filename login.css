@@ -1,0 +1,105 @@
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+background-image: radial-gradient(circle,#8e9ca9,#7890a7,#6383a4,#4e76a2,#38699f);
+}
+.header{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5) !important;
+}
+h1{
+    margin-left: 150px;
+    color: white;
+    font-size: 60px;
+    font-family: cursive;
+}
+
+.card{
+	width: 800px;
+	height: 400px;
+	position: absolute;
+	left: 350px;
+	top: 200px;
+	background-color: rgba(0,0,0,0.2) !important;
+	z-index: 1;
+}
+.btn{
+	position: absolute;
+    margin-top: 200px;
+    margin-left: 580px;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    color: black;
+    border-radius: 50px;
+    border:none;
+    background-color:#b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+}
+h2{
+	position: absolute;
+    margin-top: 155px;
+    margin-left: 505px;
+	font-family: monospace;
+	font-size: 20px;
+	color: white;
+}
+a{
+	color: black;
+    text-decoration:none; 
+}
+.log{
+    width: 395px;
+    height: 370px;
+    position: absolute;
+    left: 390px;
+    top: 150px;
+    background-color: white;
+    border-radius: 115px;
+    z-index: 3;
+}
+input{ 
+	width: 280px;
+    height: 35px;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 15px;
+    background:transparent; 
+    border: none;
+    border-bottom: 1px solid black;
+    outline: 0;
+
+}
+h3{
+	font-family: monospace;
+	font-size: 20px;
+    text-align:center; 
+}
+.logbtn{
+	width:231px;
+    height:35px;
+    font-size: 15px;
+    color: black;
+	background-color:#b8c6db;
+	background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    margin-left: 80px;
+    margin-top: 45px;
+      border-radius: 50px;
+      border:none;
+      outline: 0;
+}
+.logbtn:hover,.btn:hover{
+    cursor:pointer;
+    box-shadow: 0 0 20px white;
+  transition: 0.3s;
+  transform:scale(1.50);
+}
+i {
+    position: absolute;
+    background-color: #fff;
+    margin-top: 10px;
+    left: 50px;
+}
